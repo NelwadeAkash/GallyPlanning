@@ -1,0 +1,111 @@
+TASK-1:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-1)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-72, height-1)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+5- Load ct1 into ct2 (2nd slot) and save.Note down the observations.
+6- Load 10 parts to 1st slot and save.
+
+
+TASK-2:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-2)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-36, height-1)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+5- Try to load ct1 into ct2 (1st slot) and save.Note down the observations.
+6- Try to load ct1 into ct2 (2nd slot) and save.Note down the observations.
+7- Try to load ct1 into ct2 (3rd slot) and save.Note down the observations.
+
+
+
+TASK-3:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-2)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-36, height-2)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+5- try to change the slots and depth of container ct1 an ct2.
+6- Clear all loading rules from ct2 and observe the loading behaviour.
+
+TASK-4:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-2)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-36, height-2)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+	ct1 - 01/01/2000 - 25/11/2019
+	ct2 - 01/01/2000 - 30/11/2019
+
+5- try to load ct1 into ct2 and note down the observation.
+
+
+TASK-5:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-2)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-36, height-2)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+5- Try to load ct1 into ct2 (1st slot) and save.Note down the observations.
+6- Check the usage of ct1 and note down the observation.
+7- Create one more contaniner ct3 and load ct2 into ct3( ct2 should occupy 2 slots in ct3).
+8- Check the usage of ct1 and note down the observation.
+
+
+TASK-6:
+
+After doing TASK-5 . try to delete ct1 and note down the observations.
+
+TASK-7:
+
+1- Create 3 parts.(part-1,part-2,part-3)
+2- Create a container tpe (ctype1) and associate any part as base part.(slots - 1, depth-36, height-2)
+3- Create a container tpe (ctype2) and associate any part as base part.(slots - 3, depth-36, height-2)
+
+4- Create the containers ct1 and ct2 acording to their container types.
+	ct1 - 01/01/2000 - 30/11/2019
+	ct2 - 01/01/2000 - 30/11/2019
+
+5- try to load ct1 into ct2.
+6- Load a part part-4 into ct2 having open end date.
+7- Try to change the end date of ct1 to 20/11/2019 in Edit COntainer and update.note down the observation.
+8- Try to make the end date of part-4 as open end date in edit part and update.note down the observation.
+
+
+TASK-8:
+
+Repeat Task-1.Try 'Copy Container Type' in designer and observe the new container type details in designer.
+
+TASK-9:
+
+Reapeat TASk-1.
+Load part-5 into ct1.Check Part usage of ct1.Replace the part part-5 with part-6 and note down the observations.
+
+TASK-10:
+
+container1 - 01/01/2000 - 05/12/2019
+container2 - 01/01/2000 - 09/12/2019
+partt7 - 01/01/2019 - OPEN END DATE
+part8 - 01/01/2019 - 07/12/2019
+
+load container1 into container 2.part7 into container2.
+Try to replace part7 with part8 and note down the observation. 
+
+
+
+
+
+
+
+
+
+
+
+
+

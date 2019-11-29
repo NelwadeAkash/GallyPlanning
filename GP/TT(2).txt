@@ -1,0 +1,111 @@
+TASK:11
+
+Create 4 container versions
+	CONN version1 01/01/2000 - 28/11/2019
+	CONN version2 29/11/2019 - 05/12/2019
+	CONN version3 06/12/2019 - 11/12/2019
+	CONN version4 12/12/2019 - 19/12/2019
+
+
+Delete 2nd and 4th version.Observe the dates.
+
+Recreate containers.
+
+Dete 1st and 4th version.Observe the dates.
+
+TASK:12
+
+Create 3 container versions
+	CONN version1 01/01/2000 - 28/11/2019
+	CONN version2 29/11/2019 - 05/12/2019
+	CONN version3 06/12/2019 - 19/12/2019
+	
+ Create 2 container versions
+	CONT version1 01/01/2000 - 28/11/2019
+	CONT version2 29/11/2019 - 05/12/2019
+	
+load CONT v1 into CONN v3
+load CONT v2 into CONN V2
+
+try to load CONT into CONN version 2.Check which one is available.
+
+TASK:13
+
+CONT1 - 01/01/2000 - 25/11/2019
+
+CONT_1 - 01/01/2000 - 28/11/2019
+
+laod CONT_1 into CONT1.
+
+Try to add 2nd version for CONT1.Observe the results.
+
+Result:it is getting Added successfully.
+
+TASK:14
+
+Create 3 container versions
+	CONN version1 01/01/2000 - 28/11/2019
+	CONN version2 29/11/2019 - 05/12/2019
+	CONN version3 06/12/2019 - 19/12/2019
+
+Delete version 3.Observe the dates.
+
+Recreate again 3 containers.
+
+delete version2.Observe the dates.
+
+Result:after deleting version v2 date is changed 29/11/2019 -19/12/2019
+        After recreate    v3 date is 21/12/2019
+        deletation of v2 date will be v3 21/12/2019  - 22/12/2019
+       
+TASK:15:
+
+Create 4 container versions
+	CONN version1 01/01/2000 - 28/11/2019
+	CONN version2 29/11/2019 - 05/12/2019
+	CONN version3 06/12/2019 - 11/12/2019
+	CONN version4 12/12/2019 - 19/12/2019
+
+        con1, con3 - draft
+        con2, con4 - published
+
+try to delete con2 and con4.
+
+Recall the con2.observe the containers.
+
+Result:only containers in draft status can be deleted.
+       After recall v2 and v4 are compeletly deleted.
+       The dates will be  29/11/2019 - 19/12/2019.
+                                                                      
+
+TASK:16
+
+CONT1 - 01/01/2000 - 25/11/2019
+
+CONT_1 - 01/01/2000 - 28/11/2019
+
+laod CONT_1 into CONT1.
+
+change the status of CONT1. (DRAFT -> PFA -> APPROVED -> PUBLISHED).
+
+Observe the status of ub containers.
+
+if subcontainer CONT_1 is published then try to recall.observe the result.
+
+
+TASK:17
+
+Create 4 container versions
+	CONN version1 01/01/2000 - 28/11/2019
+	CONN version2 29/11/2019 - 05/12/2019
+	CONN version3 06/12/2019 - 11/12/2019
+	CONN version4 12/12/2019 - 19/12/2019
+
+change the dates of container version2 : to 13/12/2019 observe.
+change the dates of container 3 : 10/12/2019. Observe.
+
+
+
+
+
+
